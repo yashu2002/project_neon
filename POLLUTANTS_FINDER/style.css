@@ -4,19 +4,23 @@
 	box-sizing: border-box;
 	text-shadow: rgb(200, 85, 85);
 }
+body{
+	height: 100vh;
+	width: 100vw;
+}
 
 .root {
 	padding: 2vw;
 	/* background-image: linear-gradient(to right bottom, #213764, #295089, #2c6caf, #2688d7, #a0abb1); */
-	background-image: url("./images/1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-image: url("./images/1.jpg");
 	width: 100%;
 	height: 100%;
 	color: white;
-	font-family: poppins;
-	height: 100vh;
+	font-family: poppins;	
+	overflow: hidden;
 }
 
 
